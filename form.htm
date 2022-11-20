@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <style>
+        h1 {
+            text-align: center
+        }
+
+        div {
+            border: 2px solid transparent;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="" id="form">
+        <center>
+            <div>
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="Fullname" size="40">
+            </div>
+            <div>
+                <label for="department">Enter your Department:</label>
+                <input type="text" id="department" name="Fullname" size="40">
+            </div>
+            <div>
+                <label for="slf">Tell us a Little about yourself:</label>
+                <textarea type="textarea" id="slf" name="slf" rows="4" cols="32"></textarea>
+            </div>
+            <div>
+                <label>Do you want to Exercise at Home:</label>
+                <input type="radio" id="yes" name="Exercise">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="Exercise">
+                <label for="no">No</label>
+            </div>
+            <div>
+                <label>How do you like to read about your favorite topics?</label>
+                <br>
+                <input type="checkbox" id="books" name="Books">
+                <label for="books">Books</label>
+                <input type="checkbox" id="online" name="online">
+                <label for="online">Online Resources</label>
+                <input type="checkbox" id="phone" name="phone">
+                <label for="phone">Phone Apps</label>
+                <input type="checkbox" id="magazines" name="magazines">
+                <label for="magazines">Magazines</label>
+            </div>
+            <div>
+                <label for="genre">What genre of movies do you like?</label>
+                <select id="genre" name="genre">
+                    <option value="comedy">Comedy</option>
+                    <option value="horror">Horror</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="action">Action</option>
+                </select>
+            </div>
+            <input type="submit" name="submit" value="Submit Form">
+        </center>
+    </form>
+</body>
+
+</html>
